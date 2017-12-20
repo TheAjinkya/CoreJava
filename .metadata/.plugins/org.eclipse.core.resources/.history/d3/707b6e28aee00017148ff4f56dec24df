@@ -1,0 +1,11 @@
+package com.oops.examples;
+
+class NewClassExamples {
+
+	static String name;
+
+	static String email;
+	
+	NewClassExamples abc = new NewClassExamples();
+	
+}

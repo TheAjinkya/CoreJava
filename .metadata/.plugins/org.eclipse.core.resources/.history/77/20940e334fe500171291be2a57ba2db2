@@ -1,0 +1,13 @@
+package com.oops.concepts;
+
+class Test {
+
+	public static void main(String[] args) {
+
+		Bicycle b1 = new Bicycle(4, 250);
+		b1.toString();
+
+		System.out.println("I'm Here");
+
+	}
+}

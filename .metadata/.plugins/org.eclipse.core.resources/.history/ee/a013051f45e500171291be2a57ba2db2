@@ -1,0 +1,19 @@
+package com.oops.concepts;
+
+class Bicycle {
+
+	public int gear;
+	public int speed;
+
+	Bicycle(int gear, int speed) {
+
+		this.gear = gear;
+		this.speed = speed;
+
+	}
+
+}
+
+class Test {
+
+}

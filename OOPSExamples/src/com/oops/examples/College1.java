@@ -1,0 +1,27 @@
+package com.oops.examples;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class College1 implements Cloneable {
+
+	void OuterCollege() {
+
+		System.out.println("This is the Outer Method!");
+
+	}
+
+	public static void main(String[] args)
+			throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+
+		College c1 = new College();
+
+		College c2 = (College) Class.forName("com.oops.examples.College1").newInstance();
+		
+		College1 c3 = (College1)c1.clone();
+		
+		
+	}
+
+}

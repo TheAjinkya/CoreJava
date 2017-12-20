@@ -1,0 +1,23 @@
+package com.oops.examples;
+
+public class College1 {
+
+	void OuterCollege() {
+
+		System.out.println("This is the Outer Method!");
+
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		College c1 = new College();
+		
+		College c2 = (College) Class.forName("com.oops.examples.College1").newInstance();
+		
+		
+		
+	}
+
+}

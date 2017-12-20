@@ -1,0 +1,50 @@
+package com.oops.concepts;
+
+public class Bicycle {
+
+	public int gear;
+	public int speed;
+
+	public Bicycle(int gear, int speed) {
+
+		this.gear = gear;
+		this.speed = speed;
+	}
+
+	public void applyBrake(int decrement) {
+
+		speed -= decrement;
+
+		System.out.println("The Speed is :" + speed);
+	}
+
+	public String toString() {
+
+		return ("The Vehicle has a speed of" + speed + " with " + gear + " gears");
+
+	}
+
+}
+
+class MountainBike extends Bicycle {
+
+	private int SeatHeight;
+
+	MountainBike(int gear, int speed, int startHeight) {
+
+		super(gear, speed);
+
+		SeatHeight = startHeight;
+
+	}
+
+	public int getSeatHeight() {
+		return SeatHeight;
+	}
+	
+
+	public void setSeatHeight(int seatHeight) {
+		SeatHeight = seatHeight;
+	}
+
+}

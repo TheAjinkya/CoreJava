@@ -1,0 +1,7 @@
+package com.oops.examples;
+
+class NewClassExamples {
+
+	static String name;
+
+}

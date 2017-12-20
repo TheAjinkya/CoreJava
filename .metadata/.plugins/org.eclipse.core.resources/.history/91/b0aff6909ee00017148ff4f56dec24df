@@ -1,0 +1,22 @@
+package com.oops.examples;
+
+class Boxing{
+	
+	
+	public class People{
+		
+		
+		String abc = null;
+		String xyz;
+	
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

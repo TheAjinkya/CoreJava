@@ -1,0 +1,19 @@
+package com.oops.examples;
+
+class NewClassExamples {
+
+	static String name;
+
+	static String email;
+
+	void display() {
+
+		System.out.print("This is the Display Method");
+
+	}
+
+	NewClassExamples abc = new NewClassExamples();
+	
+	
+
+}

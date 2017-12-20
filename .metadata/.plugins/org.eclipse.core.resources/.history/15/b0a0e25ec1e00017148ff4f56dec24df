@@ -1,0 +1,16 @@
+package com.oops.examples;
+
+class College {
+
+	String name;
+	String email;
+	int contact;
+	int id;
+
+	void Collge(String name, String email, int contact, int id) {
+
+		this.contact = contact;
+
+	}
+
+}

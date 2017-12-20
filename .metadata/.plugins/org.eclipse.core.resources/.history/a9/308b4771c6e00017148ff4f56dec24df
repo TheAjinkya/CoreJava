@@ -1,0 +1,21 @@
+package com.oops.examples;
+
+class College {
+
+	class people {
+
+		String name;
+		String email;
+
+		void display() {
+
+			System.out.println("This is the main Display Method");
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

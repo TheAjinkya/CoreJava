@@ -1,0 +1,13 @@
+package com.oops.examples;
+
+class GrandFather {
+
+	public static int income;
+	public static String property;
+
+	public riseUp(int income) {
+		
+		int total = total + income;
+	}
+
+}

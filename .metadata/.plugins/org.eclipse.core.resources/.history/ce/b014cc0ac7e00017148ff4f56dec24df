@@ -1,0 +1,36 @@
+package com.oops.examples;
+
+public class College {
+
+	public class People {
+
+		String name;
+		String email;
+
+		void display() {
+
+			System.out.println("This is the main Display Method");
+
+			class Person {
+
+				void personDisplay() {
+
+					
+				}
+
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		College.People cp = new College().new People();
+
+		College college = new College();
+
+		cp.display();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.oops.examples;
+
+public class College1 {
+
+	void OuterCollege() {
+
+		System.out.println("This is the Outer Method!");
+
+	}
+
+}

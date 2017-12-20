@@ -1,0 +1,15 @@
+package com.oops.examples;
+
+class College1 {
+
+
+	
+	void OuterCollege() {
+		
+		
+		
+	}
+	
+	
+	
+}

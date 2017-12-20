@@ -1,0 +1,29 @@
+package com.oops.examples;
+
+import java.io.FileInputStream;
+
+public class College1 {
+
+	void OuterCollege() {
+
+		System.out.println("This is the Outer Method!");
+
+	}
+
+	public static void main(String[] args)
+			throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+
+		College c1 = new College();
+
+		College c2 = (College) Class.forName("com.oops.examples.College1").newInstance();
+		
+		College c3 = (College)c1.clone();
+		
+		FileInputStream file = new FileInputStream()
+
+	}
+	
+	
+	
+
+}

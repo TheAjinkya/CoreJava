@@ -1,0 +1,15 @@
+package com.oops.examples;
+
+class GrandFather {
+
+	public static int income;
+	public static String property;
+
+	public void riseUp(int income) {
+		
+		int total = 0;
+
+		total = total + income;
+	}
+
+}

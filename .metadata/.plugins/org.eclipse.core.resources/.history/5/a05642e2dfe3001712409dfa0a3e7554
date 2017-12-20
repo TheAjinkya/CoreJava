@@ -1,0 +1,52 @@
+package com.oops.examples;
+
+class GrandFather {
+
+	static int property = 1000000;
+	static String home = "2BHK";
+	static String shop = "commercial";
+
+	public void display() {
+
+		System.out
+				.println("This is the Grandfathers Space: Prperty of Rs: :" + property + " and Home :" + home + " & Shop: " + shop);
+	}
+
+	abstract class Son extends GrandFather {
+
+		int property = 10000000;
+		String farm = "10 Acres";
+
+		public void display() {
+
+			System.out.println(
+					"This is the Grandfathers Space: Prperty :" + property + "Home :" + home + "& Shop: " + shop);
+		}
+
+		abstract void future();
+
+	}
+
+	public class Grandsons extends Son {
+
+		void future() {
+
+			System.out.println("THis is the Scope of GrandSon");
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		
+		GrandFather g1 = new GrandFather();
+		
+		g1.display();
+		
+		
+		Son s = new Grandsons();
+
+		
+		
+	}
+
+}

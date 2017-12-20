@@ -1,0 +1,35 @@
+package com.oops.examples;
+
+public class OuterClass {
+
+	void outerMethod() {
+
+		class InnerClass {
+
+			void display() {
+
+				System.out.println("This is the Inner Method");
+
+			}
+
+		}
+
+		InnerClass in = new InnerClass();
+		in.display();
+
+	}
+
+	public static void main(String[] args)
+			throws InstantiationException, IllegalAccessException, ClassNotFoundException, CloneNotSupportedException {
+
+		OuterClass out = new OuterClass();
+		out.outerMethod();
+
+		OuterClass abc = new OuterClass();
+
+		OuterClass abcd = (OuterClass) Class.forName("com.oops.examples").newInstance();
+
+		OuterClass ajinkya = (OuterClass) abc.clone();
+
+	}
+}
