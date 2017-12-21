@@ -1,0 +1,9 @@
+package com.oops.examples;
+
+public class College1 {
+
+	public String name;
+	public String email;
+	public int contact;
+
+}

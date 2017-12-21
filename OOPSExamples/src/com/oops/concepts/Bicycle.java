@@ -20,7 +20,7 @@ public class Bicycle {
 
 	public String toString() {
 
-		return ("The Vehicle has a speed of" + speed + " with " + gear + " gears");
+		return ("The Vehicle has a speed of " + speed + " Kmph with " + gear + " gears");
 
 	}
 
@@ -48,7 +48,7 @@ class MountainBike extends Bicycle {
 
 	public String toString() {
 
-		return (super.toString() + "\n Seat Height is " + SeatHeight);
+		return (super.toString() + " and with the Seat Height at " + SeatHeight+" feet.");
 
 	}
 

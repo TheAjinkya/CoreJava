@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="com.oops.examples.GrandFather.Son"/>
 <fullyQualifiedTypeName name="com.oops.examples.GrandFather.Grandsons"/>
 <fullyQualifiedTypeName name="com.oops.examples.GrandFather"/>
-<fullyQualifiedTypeName name="java.lang.Cloneable"/>
 <fullyQualifiedTypeName name="com.oops.concepts.ObjectExample.ChildClass"/>
 <fullyQualifiedTypeName name="com.oops.concepts.ObjectExample.child"/>
 <fullyQualifiedTypeName name="com.oops.concepts.ObjectExample.Parent"/>
@@ -41,4 +40,9 @@
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
 <fullyQualifiedTypeName name="com.oops.concepts.ObjectExample"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="com.oops.concepts.Bicycle"/>
+<fullyQualifiedTypeName name="com.oops.concepts.MountainBike"/>
+<fullyQualifiedTypeName name="com.oops.concepts.EncapsulationExample.Student"/>
 </qualifiedTypeNameHistroy>

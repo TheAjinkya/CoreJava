@@ -1,0 +1,20 @@
+package com.oops.examples;
+
+public class College1 {
+
+	public String name;
+	public String email;
+	public int contact;
+
+	public static void main(String[] args) {
+
+//		Object Creation using new Keyword
+		
+		College1 c1 = new College1();
+
+//		Object Creation using Class Forname 
+		
+		
+	}
+
+}

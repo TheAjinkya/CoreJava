@@ -1,0 +1,37 @@
+package com.oops.concepts;
+
+class EncapsulationExample {
+
+	private class Student {
+
+		private String name;
+		private String email;
+		private int contact;
+		private int rollNo;
+
+		private void displayName() {
+
+			System.out.println("The Roll number is " + rollNo + " and Name of the Student is: " + name
+					+ " and you can reach him at: " + email + " " + contact);
+
+		}
+
+	}
+
+	class Employee extends Student {
+
+		private String name;
+		private String email;
+		private int contact;
+		private int empID;
+
+		private void displayName() {
+
+			System.out.println("The Employee ID is " + empID + " and Name of the Employee is: " + name
+					+ " and you can reach him at: " + email + " " + contact);
+
+		}
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.oops.examples;
+
+import java.lang.reflect.Constructor;
+
+public class College1 {
+
+	public String name;
+	public String email;
+	public int contact;
+
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, CloneNotSupportedException {
+
+		// Object Creation using new Keyword
+
+		College1 c1 = new College1();
+
+		// Object Creation using Class Forname
+
+		College1 c2 = (College1) Class.forName("com.oops.examples").newInstance();
+
+//		Object Creation using Clone 
+		
+		College1 c3 = (College1) c1.clone();
+		
+//		Object Creation using Class Constructor
+		
+		Constructor<College1> constructor = 
+		
+		
+	}
+
+}

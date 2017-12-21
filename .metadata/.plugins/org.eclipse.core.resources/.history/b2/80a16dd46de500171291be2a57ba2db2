@@ -1,0 +1,14 @@
+package com.oops.concepts;
+
+class EncapsulationExample {
+
+	private class Student {
+
+		private String name;
+		private String email;
+		private int contact;
+		private int rollNo;
+
+	}
+
+}
